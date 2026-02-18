@@ -3,15 +3,18 @@
 ## Prerequisites
 
 - [OpenCode.ai](https://opencode.ai) installed
-- Git installed
 
 ## Installation Steps
 
-### 1. Clone Superpowers
+### 1. 获取 Superpowers
+
+下载插件 zip 包并解压到 OpenCode 配置目录：
 
 ```bash
-git clone https://github.com/obra/superpowers.git ~/.config/opencode/superpowers
+unzip superpowers.zip -d ~/.config/opencode/superpowers
 ```
+
+> **方式二（Git）：** 公司 GitLab 地址确认后补充。
 
 ### 2. Register the Plugin
 
@@ -115,5 +118,4 @@ When skills reference Claude Code tools:
 
 ## Getting Help
 
-- Report issues: https://github.com/obra/superpowers/issues
-- Full documentation: https://github.com/obra/superpowers/blob/main/docs/README.opencode.md
+See the project README for documentation.

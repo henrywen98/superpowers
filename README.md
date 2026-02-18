@@ -15,65 +15,35 @@ Next up, once you say "go", it launches a *subagent-driven-development* process,
 There's a bunch more to it, but that's the core of the system. And because the skills trigger automatically, you don't need to do anything special. Your coding agent just has Superpowers.
 
 
-## Sponsorship
-
-If Superpowers has helped you do stuff that makes money and you are so inclined, I'd greatly appreciate it if you'd consider [sponsoring my opensource work](https://github.com/sponsors/obra).
-
-Thanks! 
-
-- Jesse
-
-
 ## Installation
 
-**Note:** Installation differs by platform. Claude Code or Cursor have built-in plugin marketplaces. Codex and OpenCode require manual setup.
+### 方式一：压缩包安装
 
-
-### Claude Code (via Plugin Marketplace)
-
-In Claude Code, register the marketplace first:
+1. 下载插件 zip 包并解压：
 
 ```bash
-/plugin marketplace add obra/superpowers-marketplace
+unzip superpowers.zip -d ~/superpowers
 ```
 
-Then install the plugin from this marketplace:
+2. 根据你使用的平台安装：
+
+**Claude Code：**
 
 ```bash
-/plugin install superpowers@superpowers-marketplace
+/plugin install ~/superpowers
 ```
 
-### Cursor (via Plugin Marketplace)
+**OpenCode：**
 
-In Cursor Agent chat, install from marketplace:
+参见 [OpenCode 安装指南](docs/README.opencode.md)
 
-```text
-/plugin-add superpowers
-```
+### 方式二：Git 仓库安装
 
-### Codex
-
-Tell Codex:
-
-```
-Fetch and follow instructions from https://raw.githubusercontent.com/obra/superpowers/refs/heads/main/.codex/INSTALL.md
-```
-
-**Detailed docs:** [docs/README.codex.md](docs/README.codex.md)
-
-### OpenCode
-
-Tell OpenCode:
-
-```
-Fetch and follow instructions from https://raw.githubusercontent.com/obra/superpowers/refs/heads/main/.opencode/INSTALL.md
-```
-
-**Detailed docs:** [docs/README.opencode.md](docs/README.opencode.md)
+> TODO: 公司 GitLab 地址确认后补充
 
 ### Verify Installation
 
-Start a new session in your chosen platform and ask for something that should trigger a skill (for example, "help me plan this feature" or "let's debug this issue"). The agent should automatically invoke the relevant superpowers skill.
+Start a new session and ask for something that should trigger a skill (for example, "help me plan this feature" or "let's debug this issue"). The agent should automatically invoke the relevant skill.
 
 ## The Basic Workflow
 
@@ -126,7 +96,6 @@ Start a new session in your chosen platform and ask for something that should tr
 - **Complexity reduction** - Simplicity as primary goal
 - **Evidence over claims** - Verify before declaring success
 
-Read more: [Superpowers for Claude Code](https://blog.fsck.com/2025/10/09/superpowers/)
 
 ## Contributing
 
@@ -151,7 +120,3 @@ Skills update automatically when you update the plugin:
 
 MIT License - see LICENSE file for details
 
-## Support
-
-- **Issues**: https://github.com/obra/superpowers/issues
-- **Marketplace**: https://github.com/obra/superpowers-marketplace
