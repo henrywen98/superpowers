@@ -1,5 +1,5 @@
 ---
-description: Create detailed implementation plan with bite-sized tasks
+description: 创建详细的实施计划，拆分为小粒度任务
 disable-model-invocation: true
 ---
 
