@@ -1,6 +1,6 @@
 ---
 name: validating-plans
-description: Use after writing-plans completes to validate plan-design consistency before execution - also use when a plan has been modified and needs re-validation
+description: writing-plans 完成后使用，在执行前验证计划与设计的一致性；计划修改后也需要重新验证
 ---
 
 # Validating Plans
